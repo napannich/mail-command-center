@@ -71,6 +71,14 @@ git merge origin/main `
   -m "UI поток: Queues→Mailbox→Detail→Tasks. Действия: папка, поиск, выбор письма, задачи, команды. Проверить локально: flutter run -d chrome."
 ```
 
+**Важно:** если Git делает только **fast-forward**, отдельного merge-коммита не будет и **текст `-m` не сохранится**. Чтобы **всегда** получить merge-бабл с заголовком и телом:
+
+```powershell
+git merge --no-ff origin/main `
+  -m "merge(main→develop): <коротко что приехало с main>" `
+  -m "UI: Queues → Mailbox → Detail → Tasks. Проверить: папки, поиск, выбор письма, чекбоксы, команды Reply/Assign/Escalate."
+```
+
 Из ветки `staging` — то же, с пометкой `main→staging`.
 
 ## Чего избегать

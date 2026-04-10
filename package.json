@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "contributors": [
-    "vl.litvintsev@yandex.ru (https://github.com/v-litvintsev)"
+    "v-litvintsev <vl.litvintsev@yandex.ru> (https://github.com/v-litvintsev)",
+    "Razgon21 <gon.21.arov@gmail.com> (https://github.com/Razgon21)"
   ],
   "scripts": {
     "dev": "vite",

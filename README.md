@@ -43,7 +43,8 @@ Queues on the left, opened thread in the center, accountable follow-up on the ri
 
 ## Co-authors
 
-- **[vl.litvintsev@yandex.ru](mailto:vl.litvintsev@yandex.ru)** — [@v-litvintsev](https://github.com/v-litvintsev)
+- [@v-litvintsev](https://github.com/v-litvintsev) — [vl.litvintsev@yandex.ru](mailto:vl.litvintsev@yandex.ru)
+- [@Razgon21](https://github.com/Razgon21) — [gon.21.arov@gmail.com](mailto:gon.21.arov@gmail.com)
 
 <br/>
 

@@ -164,9 +164,16 @@ mail-command-center/
 |-- test/
 |   `-- widget_test.dart
 |
+|-- docs/
+|   `-- merge-commit-guide.md
+|
 |-- analysis_options.yaml
 `-- pubspec.yaml
 ```
+
+## Branches and merge messages
+
+`main` — то, что уходит на **GitHub Pages**; `develop` / `staging` обычно догоняются merge из `main`. Чтобы в истории было видно **какой поток экрана** и **что руками проверить**, пиши merge-коммиты с понятным заголовком и телом (шаблоны и ASCII-схема UI): [**docs/merge-commit-guide.md**](./docs/merge-commit-guide.md).
 
 ## Shipping Model
 

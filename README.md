@@ -29,10 +29,10 @@ Queues on the left, opened thread in the center, accountable follow-up on the ri
 <br/>
 <br/>
 
-<img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=111111" alt="React 19" />
-<img src="https://img.shields.io/badge/TypeScript-6.0-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript 6" />
-<img src="https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite 8" />
-<img src="https://img.shields.io/badge/Styling-Plain_CSS-C97D4E?style=flat-square&logo=css&logoColor=white" alt="Plain CSS" />
+<img src="https://img.shields.io/badge/Flutter-stable-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/Dart-3-blue?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+<img src="https://img.shields.io/badge/UI-Material_3-757575?style=flat-square&logo=material-design&logoColor=white" alt="Material 3" />
+<img src="https://img.shields.io/badge/Target-Web-4285F4?style=flat-square&logo=google-chrome&logoColor=white" alt="Web" />
 <img src="https://img.shields.io/badge/Deploy-GitHub_Pages-0F766E?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
 <img src="https://img.shields.io/badge/Layout-Responsive-E4A96A?style=flat-square&logo=googlechrome&logoColor=white" alt="Responsive layout" />
 <img src="https://img.shields.io/github/actions/workflow/status/napannich/mail-command-center/deploy.yml?branch=main&style=flat-square&label=pages%20deploy" alt="GitHub Pages deploy status" />
@@ -98,7 +98,7 @@ Instead of scattering work across tabs, notes and chat, the UI keeps the message
 - Mail selection marks items as read and updates the detail and task panels in sync.
 - Search filters by sender, subject, route, summary and tags.
 - Queue counts, unread totals and task totals update from the same in-memory source of truth.
-- The app is deployed automatically to GitHub Pages on push to `main`.
+- The Flutter web bundle is built and deployed automatically to GitHub Pages on push to `main`.
 
 ## Live Demo
 
@@ -107,31 +107,32 @@ Instead of scattering work across tabs, notes and chat, the UI keeps the message
 
 ## Local Setup
 
+Install [Flutter](https://docs.flutter.dev/get-started/install) (stable channel, web enabled).
+
 ```bash
 git clone https://github.com/napannich/mail-command-center.git
 cd mail-command-center
-npm install
-npm run dev
+flutter pub get
+flutter run -d chrome
 ```
-
-Open the local Vite URL from the terminal.
 
 ## Production Checks
 
 ```bash
-npm run lint
-npm run build
+flutter analyze
+flutter test
+flutter build web --release --base-href /mail-command-center/
 ```
 
 ## Stack
 
 | Layer | Implementation |
 | --- | --- |
-| Frontend | `React 19` + `TypeScript` |
-| Build tooling | `Vite 8` |
-| Styling | hand-authored `CSS` |
-| State | local React state with `startTransition` and `useDeferredValue` |
-| Deployment | `GitHub Pages` via GitHub Actions |
+| UI | `Flutter` (Material 3) |
+| Language | `Dart` 3 |
+| Typography | `google_fonts` (Libre Baskerville + Lato) |
+| State | `StatefulWidget` — same mailbox / folder / search / task model as before |
+| Deployment | `flutter build web` → `GitHub Pages` via GitHub Actions |
 
 ## Design Direction
 
@@ -152,19 +153,25 @@ mail-command-center/
 |   `-- workflows/
 |       `-- deploy.yml
 |
+|-- lib/
+|   |-- main.dart
+|   |-- data/
+|   |   `-- initial_mails.dart
+|   |-- models/
+|   |   `-- mail_models.dart
+|   |-- screens/
+|   |   `-- mail_command_center_screen.dart
+|   `-- theme/
+|       `-- app_theme.dart
+|
 |-- public/
 |   `-- favicon.svg
 |
-|-- src/
-|   |-- App.tsx
-|   |-- App.css
-|   |-- index.css
-|   `-- main.tsx
+|-- test/
+|   `-- widget_test.dart
 |
-|-- index.html
-|-- package.json
-|-- tsconfig.json
-`-- vite.config.ts
+|-- analysis_options.yaml
+`-- pubspec.yaml
 ```
 
 ## Shipping Model

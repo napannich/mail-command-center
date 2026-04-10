@@ -1,18 +1,23 @@
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
 *.local
 .playwright-cli/
 output/
+
+# Flutter
+.dart_tool/
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Pods/
+**/android/.gradle/
+build/
+*.iml
+
+# Legacy Node (removed stack)
+node_modules
+dist
+dist-ssr
 
 # Editor directories and files
 .vscode/*

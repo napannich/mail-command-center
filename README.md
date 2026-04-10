@@ -41,6 +41,12 @@ Queues on the left, opened thread in the center, accountable follow-up on the ri
 
 <br/>
 
+## Co-authors
+
+- **[vl.litvintsev@yandex.ru](mailto:vl.litvintsev@yandex.ru)** — [@v-litvintsev](https://github.com/v-litvintsev)
+
+<br/>
+
 ## Product Preview
 
 <img src="./.github/assets/mail-command-center-preview.png" width="100%" alt="Mail Command Center application preview" />

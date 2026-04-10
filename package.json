@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "contributors": [
+    "vl.litvintsev@yandex.ru (https://github.com/v-litvintsev)"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="48" y1="48" x2="1168" y2="688" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DAE8E2"/>
+      <stop offset="0.35" stop-color="#F4EFE5"/>
+      <stop offset="0.7" stop-color="#F5EBDD"/>
+      <stop offset="1" stop-color="#E7D6C4"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFDF9" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F5EBDD" stop-opacity="0.88"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="739" y1="172" x2="1126" y2="585" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9F5ED"/>
+      <stop offset="1" stop-color="#F1E4D5"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="818" y1="240" x2="1187" y2="588" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#E28A51"/>
+    </linearGradient>
+    <filter id="shadow" x="24" y="24" width="1232" height="672" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.360784 0 0 0 0 0.270588 0 0 0 0 0.196078 0 0 0 0.12 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="#F3EEE4"/>
+  <circle cx="143" cy="124" r="144" fill="#0F766E" fill-opacity="0.07"/>
+  <circle cx="1187" cy="614" r="184" fill="#DDA070" fill-opacity="0.14"/>
+  <circle cx="1077" cy="118" r="98" fill="#0F766E" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="48" y="48" width="1184" height="624" rx="36" fill="url(#bg)"/>
+    <rect x="49" y="49" width="1182" height="622" rx="35" stroke="white" stroke-opacity="0.65" stroke-width="2"/>
+  </g>
+
+  <rect x="88" y="92" width="192" height="36" rx="18" fill="#FFFDF9" fill-opacity="0.86"/>
+  <text x="112" y="116" fill="#6E665C" font-size="15" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="4">MAIL COMMAND CENTER</text>
+
+  <text x="88" y="214" fill="#1D2527" font-size="76" font-weight="700" font-family="Georgia, Times New Roman, serif">
+    <tspan x="88" dy="0">Inbox, opened</tspan>
+    <tspan x="88" dy="82">thread, task panel.</tspan>
+  </text>
+
+  <text x="92" y="370" fill="#595851" font-size="28" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <tspan x="92" dy="0">A modern mail workspace for triage, reading, routing and</tspan>
+    <tspan x="92" dy="40">turning messages into accountable follow-up.</tspan>
+  </text>
+
+  <rect x="92" y="448" width="190" height="54" rx="27" fill="#0F766E"/>
+  <text x="129" y="482" fill="#F8F4ED" font-size="22" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Live demo</text>
+  <rect x="300" y="448" width="202" height="54" rx="27" fill="#FFFDF9" fill-opacity="0.88"/>
+  <text x="334" y="482" fill="#334143" font-size="22" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">React + Vite</text>
+
+  <rect x="88" y="558" width="132" height="42" rx="21" fill="#FFFDF9" fill-opacity="0.88"/>
+  <text x="116" y="585" fill="#6A655D" font-size="18" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Responsive</text>
+  <rect x="232" y="558" width="144" height="42" rx="21" fill="#FFFDF9" fill-opacity="0.88"/>
+  <text x="262" y="585" fill="#6A655D" font-size="18" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Task-linked</text>
+  <rect x="390" y="558" width="154" height="42" rx="21" fill="#FFFDF9" fill-opacity="0.88"/>
+  <text x="420" y="585" fill="#6A655D" font-size="18" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">Queue-aware</text>
+
+  <rect x="698" y="116" width="470" height="488" rx="34" fill="url(#glass)" fill-opacity="0.82"/>
+  <rect x="699" y="117" width="468" height="486" rx="33" stroke="white" stroke-opacity="0.68" stroke-width="2"/>
+
+  <rect x="732" y="156" width="92" height="412" rx="24" fill="#F6EFE3"/>
+  <rect x="748" y="204" width="60" height="82" rx="18" fill="#0F766E"/>
+  <rect x="748" y="304" width="60" height="92" rx="18" fill="#F8F2E8"/>
+  <rect x="748" y="414" width="60" height="92" rx="18" fill="#F8F2E8"/>
+  <rect x="844" y="156" width="150" height="412" rx="24" fill="#F8F2E8"/>
+  <rect x="862" y="220" width="114" height="124" rx="20" fill="#DDEDEA"/>
+  <rect x="862" y="360" width="114" height="86" rx="20" fill="#FFFDF9"/>
+  <rect x="1008" y="156" width="126" height="278" rx="24" fill="url(#panel)"/>
+  <rect x="1008" y="450" width="126" height="118" rx="24" fill="#F8F2E8"/>
+
+  <text x="861" y="203" fill="#6F695E" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="3">MAILBOX</text>
+  <text x="1028" y="203" fill="#6F695E" font-size="13" font-family="Inter, Segoe UI, Arial, sans-serif" letter-spacing="3">TASK PANEL</text>
+  <text x="860" y="395" fill="#1D2527" font-size="24" font-weight="700" font-family="Georgia, Times New Roman, serif">Opened message</text>
+  <text x="1028" y="239" fill="#1D2527" font-size="38" font-weight="700" font-family="Georgia, Times New Roman, serif">
+    <tspan x="1028" dy="0">Revenue</tspan>
+    <tspan x="1028" dy="42">Ops</tspan>
+  </text>
+
+  <rect x="1028" y="322" width="86" height="26" rx="13" fill="#DFF0EA"/>
+  <text x="1046" y="340" fill="#0F5E57" font-size="14" font-weight="700" font-family="Inter, Segoe UI, Arial, sans-serif">1/3 done</text>
+
+  <rect x="1028" y="370" width="86" height="12" rx="6" fill="#D4E4E1"/>
+  <rect x="1028" y="370" width="44" height="12" rx="6" fill="url(#accent)"/>
+
+  <rect x="1028" y="454" width="86" height="92" rx="18" fill="#E3EFEB"/>
+  <rect x="862" y="232" width="78" height="12" rx="6" fill="#1D2527" fill-opacity="0.85"/>
+  <rect x="862" y="253" width="72" height="10" rx="5" fill="#6D665D" fill-opacity="0.72"/>
+  <rect x="862" y="289" width="46" height="22" rx="11" fill="#F4D7C9"/>
+  <rect x="862" y="379" width="92" height="12" rx="6" fill="#1D2527" fill-opacity="0.82"/>
+  <rect x="862" y="405" width="66" height="10" rx="5" fill="#6D665D" fill-opacity="0.7"/>
+
+  <rect x="756" y="222" width="44" height="10" rx="5" fill="#F7F3EC" fill-opacity="0.95"/>
+  <rect x="756" y="244" width="36" height="8" rx="4" fill="#F7F3EC" fill-opacity="0.75"/>
+  <rect x="756" y="328" width="44" height="10" rx="5" fill="#1D2527" fill-opacity="0.82"/>
+  <rect x="756" y="350" width="30" height="8" rx="4" fill="#6D665D" fill-opacity="0.72"/>
+  <rect x="756" y="438" width="44" height="10" rx="5" fill="#1D2527" fill-opacity="0.82"/>
+  <rect x="756" y="460" width="34" height="8" rx="4" fill="#6D665D" fill-opacity="0.72"/>
+</svg>

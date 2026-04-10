@@ -168,10 +168,10 @@ That keeps the repository presentation, source code and live demo tied together 
 
 ## Collaborators
 
-Listed co-authors (grant repo access under **Settings → Collaborators** when you want them to have push rights):
+People with **Write** access on this repo (highest role GitHub allows for collaborators on a *personal* account repository; only the owner has Admin):
 
-- [vl.litvintsev@yandex.ru](mailto:vl.litvintsev@yandex.ru)
-- [gon.21.arov@gmail.com](mailto:gon.21.arov@gmail.com)
+- **[v-litvintsev](https://github.com/v-litvintsev)** — [vl.litvintsev@yandex.ru](mailto:vl.litvintsev@yandex.ru) — added as collaborator (push / write).
+- **[gon.21.arov@gmail.com](mailto:gon.21.arov@gmail.com)** — listed as co-author; **could not be invited via API** because this email has no linked public GitHub activity (username unknown). Add them once in [**Repository settings → Collaborators**](https://github.com/napannich/mail-command-center/settings/access) (the UI accepts **email or username**); give **Write** to match full collaborator access.
 
 <div align="center">
 

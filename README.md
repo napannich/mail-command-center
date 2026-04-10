@@ -166,6 +166,13 @@ Pushes to `main` trigger the Pages workflow in [deploy.yml](./.github/workflows/
 
 That keeps the repository presentation, source code and live demo tied together in one clean loop.
 
+## Collaborators
+
+Listed co-authors (grant repo access under **Settings → Collaborators** when you want them to have push rights):
+
+- [vl.litvintsev@yandex.ru](mailto:vl.litvintsev@yandex.ru)
+- [gon.21.arov@gmail.com](mailto:gon.21.arov@gmail.com)
+
 <div align="center">
 
 <br/>

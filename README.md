@@ -172,13 +172,6 @@ Pushes to `main` trigger the Pages workflow in [deploy.yml](./.github/workflows/
 
 That keeps the repository presentation, source code and live demo tied together in one clean loop.
 
-## Collaborators
-
-People with **Write** access on this repo (highest role GitHub allows for collaborators on a *personal* account repository; only the owner has Admin):
-
-- **[v-litvintsev](https://github.com/v-litvintsev)** — [vl.litvintsev@yandex.ru](mailto:vl.litvintsev@yandex.ru) — added as collaborator (push / write).
-- **[gon.21.arov@gmail.com](mailto:gon.21.arov@gmail.com)** — listed as co-author; **could not be invited via API** because this email has no linked public GitHub activity (username unknown). Add them once in [**Repository settings → Collaborators**](https://github.com/napannich/mail-command-center/settings/access) (the UI accepts **email or username**); give **Write** to match full collaborator access.
-
 <div align="center">
 
 <br/>

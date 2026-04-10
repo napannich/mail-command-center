@@ -5,11 +5,6 @@
 <br/>
 <br/>
 
-<img src="./.github/assets/mail-command-center-hero.svg" width="100%" alt="Mail Command Center hero" />
-
-<br/>
-<br/>
-
 <strong>Modern mail workspace for triage-heavy teams.</strong>
 
 <br/>
@@ -148,7 +143,6 @@ mail-command-center/
 |
 |-- .github/
 |   |-- assets/
-|   |   |-- mail-command-center-hero.svg
 |   |   `-- mail-command-center-preview.png
 |   `-- workflows/
 |       `-- deploy.yml

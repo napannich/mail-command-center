@@ -1,0 +1,117 @@
+[      21ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/api/userdata/user.css:0
+[      26ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/user.css:0
+[     154ms] [WARNING] [ComfyUI] The legacy queue/history menu is deprecated. Core functionality in this menu may break at any time. Issues and feature requests related to the legacy menu will not be addressed. To switch to the new menu: Settings → search "Use new menu" → change from "Disabled" to "Top". @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:163
+[     154ms] [WARNING] [ComfyUI] The legacy queue/history menu is deprecated. Core functionality in this menu may break at any time. Issues and feature requests related to the legacy menu will not be addressed. To switch to the new menu: Settings → search "Use new menu" → change from "Disabled" to "Top". @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:163
+[     252ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'changeTheme')
+    at G.immediate (http://127.0.0.1:8000/assets/GraphView-Ck1foubW.js:18:195436)
+    at callWithErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:25920)
+    at callWithAsyncErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:26030)
+    at l.call (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:37543)
+    at job (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:23606)
+    at watch (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:23870)
+    at doWatch (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:37771)
+    at watch (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:37188)
+    at setup (http://127.0.0.1:8000/assets/GraphView-Ck1foubW.js:18:195295)
+    at callWithErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:25920) @ http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:0
+[     262ms] [ERROR] ComfyApp graph accessed before initialization @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:179
+[     304ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/api/userdata?dir=subgraphs&recurse=true&split=false&full_info=true:0
+[     334ms] TypeError: Cannot read properties of undefined (reading 'getElectronVersion')
+    at http://127.0.0.1:8000/assets/core-BmEfiOCF.js:3:1076
+    at http://127.0.0.1:8000/assets/core-BmEfiOCF.js:3:6090
+[     365ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/api/userdata/comfy.templates.json:0
+[     502ms] [WARNING] Extension pysssss.SnapToGrid is disabled. @ http://127.0.0.1:8000/assets/extensionStore-BxdrYmaW.js:0
+[     503ms] [WARNING] [ComfyUI Notice] "scripts/widgets.js" is an internal module, not part of the public API. Future updates may break this import. @ http://127.0.0.1:8000/scripts/widgets.js:1
+[     506ms] [WARNING] Extension pysssss.FaviconStatus is disabled. @ http://127.0.0.1:8000/assets/extensionStore-BxdrYmaW.js:0
+[     506ms] [WARNING] [ComfyUI Deprecated] Importing from "scripts/ui.js" is deprecated and will be removed in v1.34. @ http://127.0.0.1:8000/scripts/ui.js:1
+[     516ms] [WARNING] [ComfyUI Notice] "scripts/pnginfo.js" is an internal module, not part of the public API. Future updates may break this import. @ http://127.0.0.1:8000/scripts/pnginfo.js:1
+[     519ms] [WARNING] [ComfyUI Notice] "extensions/core/clipspace.js" is an internal module, not part of the public API. Future updates may break this import. @ http://127.0.0.1:8000/extensions/core/clipspace.js:1
+[     520ms] [WARNING] [ComfyUI Notice] "extensions/core/widgetInputs.js" is an internal module, not part of the public API. Future updates may break this import. @ http://127.0.0.1:8000/extensions/core/widgetInputs.js:1
+[     520ms] [WARNING] [ComfyUI Notice] "scripts/utils.js" is an internal module, not part of the public API. Future updates may break this import. @ http://127.0.0.1:8000/scripts/utils.js:1
+[     538ms] [WARNING] [MaskEditor] ComfyApp.open_maskeditor is deprecated. Plugins should migrate to using the command system or direct node context menu integration. @ http://127.0.0.1:8000/assets/core-BmEfiOCF.js:2
+[     880ms] [WARNING] Use of defaultInput on required input custom_nodes.comfyui-impact-pack:ImpactSchedulerAdapter:scheduler is deprecated. Please drop the defaultInput option. @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:163
+[     929ms] [WARNING] Use of defaultInput on required input custom_nodes.comfyui-impact-pack:ImpactSchedulerAdapter:scheduler is deprecated. Please drop the defaultInput option. @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:163
+[     939ms] [WARNING] %c[DEPRECATED]%c Monkey-patching getCanvasMenuOptions is deprecated. (Extension: "pysssss.GraphArrange")
+Please use the new context menu API instead.
+
+See: https://docs.comfy.org/custom-nodes/js/context-menu-migration color: orange; font-weight: bold color: inherit @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:9
+[     939ms] [WARNING] %c[DEPRECATED]%c Monkey-patching getCanvasMenuOptions is deprecated. (Extension: "pysssss.NodeFinder")
+Please use the new context menu API instead.
+
+See: https://docs.comfy.org/custom-nodes/js/context-menu-migration color: orange; font-weight: bold color: inherit @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:9
+[     943ms] [WARNING] %c[DEPRECATED]%c Monkey-patching getCanvasMenuOptions is deprecated. (Extension: "rgthree.QueueNode")
+Please use the new context menu API instead.
+
+See: https://docs.comfy.org/custom-nodes/js/context-menu-migration color: orange; font-weight: bold color: inherit @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:9
+[     949ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:8000/api/pysssss/autocomplete:0
+[     950ms] [WARNING] [ComfyUI Deprecated] Importing from "scripts/ui/components/button.js" is deprecated and will be removed in v1.34. @ http://127.0.0.1:8000/scripts/ui/components/button.js:1
+[     955ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'changeTheme')
+    at G.immediate (http://127.0.0.1:8000/assets/GraphView-Ck1foubW.js:18:195436)
+    at callWithErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:25920)
+    at callWithAsyncErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:26030)
+    at l.call (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:37543)
+    at job (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:23606)
+    at callWithErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:25928)
+    at flushJobs (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:27944) @ http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:0
+[     985ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'DownloadManager')
+    at http://127.0.0.1:8000/assets/electronDownloadStore-BbLO8rIp.js:1:278
+    at http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:91254
+    at EffectScope.run (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:5268)
+    at http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:91246
+    at EffectScope.run (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:5268)
+    at http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:91220
+    at runWithContext (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:20011)
+    at createSetupStore (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:91210)
+    at useStore (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:91929)
+    at Proxy.iconBadge (http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:164:8799) @ http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:0
+[    1424ms] [WARNING] [ConflictDetection] No Registry data found for jeankassio/ComfyUI-AceStep_SFT, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1424ms] [WARNING] [ConflictDetection] No Registry data found for comfyui-detail-daemon, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1424ms] [WARNING] [ConflictDetection] No Registry data found for comfyui-easy-use, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1424ms] [WARNING] [ConflictDetection] No Registry data found for ComfyUI-GGUF, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1424ms] [WARNING] [ConflictDetection] No Registry data found for comfyui-kjnodes, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1424ms] [WARNING] [ConflictDetection] No Registry data found for comfyui-logic, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for ComfyUI-LTXVideo, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for qwen3-tts-comfyui, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for comfyui-various, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for comfyui-videohelpersuite, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for ace-step, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for comfyui_essentials, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for rgthree-comfy, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1425ms] [WARNING] [ConflictDetection] No Registry data found for comfyui-manager, using fallback @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1634ms] [WARNING] [ConflictDetection] Python import failure detected for ComfyUI-GGUF: Traceback (most recent call last):
+  File "D:\comfuui\Новая папка\ComfyUI\resources\ComfyUI\nodes.py", line 2227, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\comfuui\Новая папка\custom_nodes\ComfyUI-GGUF\__init__.py", line 7, in <module>
+    from .nodes import NODE_CLASS_MAPPINGS
+  File "D:\comfuui\Новая папка\custom_nodes\ComfyUI-GGUF\nodes.py", line 16, in <module>
+    from .ops import GGMLOps, move_patch_to_device
+  File "D:\comfuui\Новая папка\custom_nodes\ComfyUI-GGUF\ops.py", line 2, in <module>
+    import gguf
+ModuleNotFoundError: No module named 'gguf'
+ @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    1634ms] [WARNING] [ConflictDetection] Python import failure detected for ace-step: Traceback (most recent call last):
+  File "D:\comfuui\Новая папка\ComfyUI\resources\ComfyUI\nodes.py", line 2227, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\comfuui\Новая папка\custom_nodes\ComfyUI_ACE-Step\__init__.py", line 1, in <module>
+    from .ace_step_nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+  File "D:\comfuui\Новая папка\custom_nodes\ComfyUI_ACE-Step\ace_step_nodes.py", line 17, in <module>
+    from ace_step.pipeline_ace_step import ACEStepPipeline as AP
+  File "D:\comfuui\Новая папка\custom_nodes\ComfyUI_ACE-Step\ace_step\pipeline_ace_step.py", line 6, in <module>
+    from loguru import logger
+ModuleNotFoundError: No module named 'loguru'
+ @ http://127.0.0.1:8000/assets/dialogService-Da794jdp.js:1
+[    2737ms] [WARNING] 'progress' fired before prompt was made. @ http://127.0.0.1:8000/rgthree/common/prompt_service.js:136
+[    4122ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'Events')
+    at http://127.0.0.1:8000/assets/GraphView-Ck1foubW.js:18:195679
+    at Array.forEach (<anonymous>)
+    at http://127.0.0.1:8000/assets/GraphView-Ck1foubW.js:18:195663
+    at callWithErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:25920)
+    at callWithAsyncErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:26030)
+    at l.call (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:2:37543)
+    at job (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:23606)
+    at callWithErrorHandling (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:25928)
+    at flushJobs (http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:1:27944) @ http://127.0.0.1:8000/assets/vendor-vue-core-DO0afONr.js:0
+[    7738ms] undefined

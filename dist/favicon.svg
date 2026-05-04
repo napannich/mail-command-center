@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="14" y1="10" x2="108" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="0.55" stop-color="#7C5C43"/>
+      <stop offset="1" stop-color="#E28A51"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="31" y1="36" x2="99" y2="98" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#F4EADC"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="64" y1="22" x2="64" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CBEAE6"/>
+      <stop offset="1" stop-color="#7CC7BF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="14" y="10" width="100" height="108" rx="28" fill="url(#bg)"/>
+  <circle cx="92" cy="35" r="17" fill="#F2EFE8" fill-opacity="0.18"/>
+  <circle cx="39" cy="97" r="22" fill="#F2EFE8" fill-opacity="0.1"/>
+
+  <rect x="28" y="28" width="72" height="72" rx="20" fill="url(#paper)"/>
+  <path d="M40 46C40 41.582 43.582 38 48 38H80C84.418 38 88 41.582 88 46V82C88 86.418 84.418 90 80 90H48C43.582 90 40 86.418 40 82V46Z" fill="#F7F1E7"/>
+  <path d="M40 48.5L61.677 64.758C63.1 65.825 65.056 65.825 66.479 64.758L88 48.5" stroke="#0F766E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 80L56.5 64.5" stroke="#D79A64" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 80L71.5 64.5" stroke="#D79A64" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="77" y="22" width="28" height="28" rx="12" fill="url(#accent)"/>
+  <path d="M84 31H97" stroke="#0F766E" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M84 37H97" stroke="#0F766E" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M84 43H92" stroke="#0F766E" stroke-width="4.5" stroke-linecap="round"/>
+</svg>
